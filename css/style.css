@@ -1,0 +1,285 @@
+@import url(reset.css);
+
+body {
+    background-color: #F9F9F9;
+}
+
+nav {
+    height: 56px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+nav .esquerda {
+    display: flex;
+    column-gap: 32px;
+    align-items: center;
+}
+
+nav .esquerda .logo {
+    width: 90px;
+    height: 20px;
+}
+
+nav .centro {
+    display: flex;
+}
+
+nav .centro input {
+    width: 404px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+}
+
+nav .centro button {
+    width: 57px;
+    height: 40px;
+    background-color: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    border-left: 0;
+    background-image: url('/images/search.png');
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: center;
+}
+
+nav .direita {
+    display: flex;
+    width: 130px;
+    justify-content: flex-end;
+    column-gap: 24px;
+}
+
+nav .direita .perfil {
+    width: 34px;
+    height: 34px;
+    background-image: url('/images/WhatsApp\ Image\ 2024-02-11\ at\ 17.47.33.jpeg');
+    background-size: 100%;
+    background-position: center;
+    border-radius: 50%;
+}
+
+nav  .direita img {
+    object-fit: contain;
+}
+
+.containers-principais {
+    display: flex;
+}
+
+main {
+    width: 952px;
+    height: 746px;
+    margin-top: 28px;
+    margin-left: 75px;
+    margin-right: 25px;
+}
+
+main iframe {
+    width: 952px;
+    height: 537px;
+}
+
+main h1 {
+    margin: 16px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+main .acoes-do-video {
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .acoes-do-video .info-canal {
+    width: 160px;
+    height: 42px;
+    display: flex;
+    column-gap: 12px;
+    font-size: 13.7px;
+    align-items: center;
+}
+
+main .acoes-do-video .info-canal #logo-canal {
+    width: 42px;
+    height: 42px;
+    background-image: url('/images/projeto\ img.jpg');
+    background-size: 100%;
+    border-radius: 50%;
+}
+
+main .acoes-do-video .info-canal #dados-canal {
+    font-weight: 600;
+}
+
+main .acoes-do-video .info-canal #inscritos {
+    font-weight: 400;
+    color: #515151;
+}
+
+main .acoes-do-video #botao-inscreva-se {
+    width: 159px;
+    height: 40px;
+}
+
+main .acoes-do-video #botao-inscreva-se #inscreva-se {
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    background-color: #CC0000;
+    border: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+main .acoes-do-video .avaliar-video-like {
+    width: 63px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    font-size: 13.9px;
+    font-weight: 600;
+    column-gap: 8px;
+}
+
+main .acoes-do-video .avaliar-video-like #like {
+    width: 24px;
+    height: 24px;
+    background-color: #F9F9F9;
+    background-image: url('/images/thumbs-up.png');
+    background-size: 24px 24px;
+    border: transparent;
+}
+
+main .acoes-do-video .avaliar-video-dislike {
+    width: 100px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    font-size: 14px;
+    font-weight: 600;
+    column-gap: 8px;
+}
+
+main .acoes-do-video .avaliar-video-dislike #dislike {
+    width: 24px;
+    height: 24px;
+    background-color: #F9F9F9;
+    background-image: url('/images/thumbs-down.png');
+    background-size: 24px 24px;
+    border: transparent;
+}
+
+main  .acoes-do-video .share {
+    width: 115px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    margin: auto  0;
+    font-size: 14px;
+    font-weight: 600;
+    column-gap: 8px;
+}
+
+main  .acoes-do-video .share #to-share {
+    width: 24px;
+    height: 24px;
+    background-color: #F9F9F9;
+    background-image: url('/images/share-2.png');
+    background-size: 24px;
+    border: transparent;
+}
+
+main  .acoes-do-video .download {
+    width: 115px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    margin: auto  0;
+    font-size: 14px;
+    font-weight: 600;
+    column-gap: 8px;
+}
+
+
+main  .acoes-do-video .download #to-download {
+    width: 24px;
+    height: 24px;
+    background-color: #F9F9F9;
+    background-image: url('/images/download.png');
+    background-size: 24px;
+    border: transparent;
+}
+
+main .detalhes-de-envio {
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+main .descricao {
+    white-space: pre-line;
+    color: #515151;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.containers-principais .thumb-containers {
+    width: 160px;
+    margin-top: 28px;
+    margin-right: 16px;
+    flex-direction: column;
+}
+
+.containers-principais .thumb-containers .thumb {
+    width: 160px;
+    height: 90px;
+    background-color: white;
+    margin-bottom: 16px;
+}
+
+.containers-principais .thumb-containers .thumb img {
+    width: 100%;
+    height: 100%;
+}
+
+.containers-principais .nome-do-video {
+    width: 160px;
+    margin-top: 28px;
+    flex-direction: column;
+}
+
+.containers-principais .nome-do-video .dados-miniatura {
+    width: 196px;
+    height: 90px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.containers-principais .nome-do-video .dados-miniatura .titulo-miniatura {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.containers-principais .nome-do-video .dados-miniatura .nome-canal-miniatura {
+    font-size: 12px;
+    font-weight: 400;
+    color: #515151;
+}
+
+.containers-principais .nome-do-video .dados-miniatura .dados-do-envio-e-views  {
+    font-size: 12px;
+    font-weight: 400;
+    color: #515151;
+}
