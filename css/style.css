@@ -40,7 +40,7 @@ nav .centro button {
     background-color: #F8F8F8;
     border: 1px solid #CCCCCC;
     border-left: 0;
-    background-image: url('/images/search.png');
+    background-image: url('../images/search.png');
     background-repeat: no-repeat;
     background-size: 24px;
     background-position: center;
@@ -56,7 +56,7 @@ nav .direita {
 nav .direita .perfil {
     width: 34px;
     height: 34px;
-    background-image: url('/images/WhatsApp\ Image\ 2024-02-11\ at\ 17.47.33.jpeg');
+    background-image: url('../images/WhatsApp\ Image\ 2024-02-11\ at\ 17.47.33.jpeg');
     background-size: 100%;
     background-position: center;
     border-radius: 50%;
@@ -107,7 +107,7 @@ main .acoes-do-video .info-canal {
 main .acoes-do-video .info-canal #logo-canal {
     width: 42px;
     height: 42px;
-    background-image: url('/images/projeto\ img.jpg');
+    background-image: url('../images/projeto\ img.jpg');
     background-size: 100%;
     border-radius: 50%;
 }
@@ -154,7 +154,7 @@ main .acoes-do-video .avaliar-video-like #like {
     width: 24px;
     height: 24px;
     background-color: #F9F9F9;
-    background-image: url('/images/thumbs-up.png');
+    background-image: url('../images/thumbs-up.png');
     background-size: 24px 24px;
     border: transparent;
 }
@@ -174,7 +174,7 @@ main .acoes-do-video .avaliar-video-dislike #dislike {
     width: 24px;
     height: 24px;
     background-color: #F9F9F9;
-    background-image: url('/images/thumbs-down.png');
+    background-image: url('../images/thumbs-down.png');
     background-size: 24px 24px;
     border: transparent;
 }
@@ -194,7 +194,7 @@ main  .acoes-do-video .share #to-share {
     width: 24px;
     height: 24px;
     background-color: #F9F9F9;
-    background-image: url('/images/share-2.png');
+    background-image: url('../images/share-2.png');
     background-size: 24px;
     border: transparent;
 }
@@ -215,7 +215,7 @@ main  .acoes-do-video .download #to-download {
     width: 24px;
     height: 24px;
     background-color: #F9F9F9;
-    background-image: url('/images/download.png');
+    background-image: url('../images/download.png');
     background-size: 24px;
     border: transparent;
 }
