@@ -68,12 +68,12 @@ nav  .direita img {
 
 .containers-principais {
     display: flex;
+    margin-top: 28px;
 }
 
 main {
     width: 952px;
     height: 746px;
-    margin-top: 28px;
     margin-left: 75px;
     margin-right: 25px;
 }
@@ -233,52 +233,52 @@ main .descricao {
     font-weight: 400;
 }
 
-.containers-principais .thumb-containers {
-    width: 160px;
-    margin-top: 28px;
-    margin-right: 16px;
+.containers-principais .espaco-videos-laterais {
+    margin-left: 25px;
+    width: 372px;
+    height: 938px;
+    display: flex;
     flex-direction: column;
+    row-gap: 16px;
 }
 
-.containers-principais .thumb-containers .thumb {
+.containers-principais .espaco-videos-laterais .unidade-video-recomendado {
+    width: 372px;
+    height: 90px;
+    display: flex;
+    column-gap: 16px;
+}
+
+.containers-principais .espaco-videos-laterais .unidade-video-recomendado .thumb {
     width: 160px;
     height: 90px;
-    background-color: white;
-    margin-bottom: 16px;
 }
 
-.containers-principais .thumb-containers .thumb img {
+.containers-principais .espaco-videos-laterais .unidade-video-recomendado .thumb img {
     width: 100%;
     height: 100%;
 }
 
-.containers-principais .nome-do-video {
-    width: 160px;
-    margin-top: 28px;
-    flex-direction: column;
-}
-
-.containers-principais .nome-do-video .dados-miniatura {
+.containers-principais .espaco-videos-laterais .unidade-video-recomendado .dados-video-recomendado {
     width: 196px;
     height: 90px;
-    margin-bottom: 16px;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
+    justify-content: space-between;
 }
 
-.containers-principais .nome-do-video .dados-miniatura .titulo-miniatura {
+.containers-principais .espaco-videos-laterais .unidade-video-recomendado .dados-video-recomendado .titulo-video-miniatura {
     font-size: 14px;
     font-weight: 600;
 }
 
-.containers-principais .nome-do-video .dados-miniatura .nome-canal-miniatura {
+.containers-principais .espaco-videos-laterais .unidade-video-recomendado .dados-video-recomendado .nome-canal-miniatura {
     font-size: 12px;
     font-weight: 400;
     color: #515151;
 }
 
-.containers-principais .nome-do-video .dados-miniatura .dados-do-envio-e-views  {
+.containers-principais .espaco-videos-laterais .unidade-video-recomendado .dados-video-recomendado .dados-de-envio-e-views {
     font-size: 12px;
     font-weight: 400;
     color: #515151;
